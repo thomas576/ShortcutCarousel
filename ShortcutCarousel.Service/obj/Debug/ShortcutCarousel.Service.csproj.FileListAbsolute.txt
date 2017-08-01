@@ -1,0 +1,8 @@
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel.Service\bin\Debug\ShortcutCarousel.Service.dll.config
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel.Service\bin\Debug\ShortcutCarousel.Service.dll
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel.Service\bin\Debug\ShortcutCarousel.Service.pdb
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel.Service\bin\Debug\ShortcutCarousel.Model.dll
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel.Service\bin\Debug\ShortcutCarousel.Model.pdb
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel.Service\obj\Debug\ShortcutCarousel.Service.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel.Service\obj\Debug\ShortcutCarousel.Service.dll
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel.Service\obj\Debug\ShortcutCarousel.Service.pdb

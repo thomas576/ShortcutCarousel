@@ -1,0 +1,14 @@
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel\bin\Debug\ShortcutCarousel.exe.config
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel\bin\Debug\ShortcutCarousel.exe
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel\bin\Debug\ShortcutCarousel.pdb
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel\obj\Debug\MainWindow.g.cs
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel\obj\Debug\App.g.cs
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel\obj\Debug\ShortcutCarousel_MarkupCompile.cache
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel\obj\Debug\ShortcutCarousel_MarkupCompile.lref
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel\obj\Debug\MainWindow.baml
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel\obj\Debug\ShortcutCarousel.g.resources
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel\obj\Debug\ShortcutCarousel.Properties.Resources.resources
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel\obj\Debug\ShortcutCarousel.csproj.GenerateResource.Cache
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel\obj\Debug\ShortcutCarousel.exe
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel\obj\Debug\ShortcutCarousel.pdb
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel\obj\Debug\ShortcutCarousel.csprojResolveAssemblyReference.cache

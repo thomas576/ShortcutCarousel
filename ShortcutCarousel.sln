@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortcutCarousel.UI", "ShortcutCarousel\ShortcutCarousel.UI.csproj", "{0D919934-466D-4729-A170-3455AC40EC6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortcutCarousel.Model", "ShortcutCarousel.Model\ShortcutCarousel.Model.csproj", "{6F87BF69-80FC-409E-94C5-6C8A531F9535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortcutCarousel.Service", "ShortcutCarousel.Service\ShortcutCarousel.Service.csproj", "{A81D0177-D3CA-4D7F-BB27-A7C222BC2F17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortcutCarousel.Service.Host", "ShortcutCarousel.Service.Host\ShortcutCarousel.Service.Host.csproj", "{B7B6A7F5-B5BA-42FD-AFD1-22D2A1375497}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D919934-466D-4729-A170-3455AC40EC6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D919934-466D-4729-A170-3455AC40EC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D919934-466D-4729-A170-3455AC40EC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D919934-466D-4729-A170-3455AC40EC6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F87BF69-80FC-409E-94C5-6C8A531F9535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F87BF69-80FC-409E-94C5-6C8A531F9535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F87BF69-80FC-409E-94C5-6C8A531F9535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F87BF69-80FC-409E-94C5-6C8A531F9535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A81D0177-D3CA-4D7F-BB27-A7C222BC2F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A81D0177-D3CA-4D7F-BB27-A7C222BC2F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A81D0177-D3CA-4D7F-BB27-A7C222BC2F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A81D0177-D3CA-4D7F-BB27-A7C222BC2F17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7B6A7F5-B5BA-42FD-AFD1-22D2A1375497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B6A7F5-B5BA-42FD-AFD1-22D2A1375497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B6A7F5-B5BA-42FD-AFD1-22D2A1375497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B6A7F5-B5BA-42FD-AFD1-22D2A1375497}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

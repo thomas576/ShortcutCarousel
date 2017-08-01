@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6F87BF69-80FC-409E-94C5-6C8A531F9535}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ShortcutCarousel.Model</RootNamespace>
+    <AssemblyName>ShortcutCarousel.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\ThirdpartyLibraries\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess">
+      <HintPath>..\ThirdpartyLibraries\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractXMLDataMapper.cs" />
+    <Compile Include="CarouselDatabaseCollection.cs" />
+    <Compile Include="CarouselDatabaseItem.cs" />
+    <Compile Include="CarouselLogCollection.cs" />
+    <Compile Include="CarouselLogItem.cs" />
+    <Compile Include="CarouselScriptCollection.cs" />
+    <Compile Include="CarouselScriptItem.cs" />
+    <Compile Include="CarouselUser.cs" />
+    <Compile Include="CarouselUserDataMapper.cs" />
+    <Compile Include="HelperClasses\HSLColor.cs" />
+    <Compile Include="HelperClasses\ColorHelper.cs" />
+    <Compile Include="ICarouselUserDataMapper.cs" />
+    <Compile Include="IColorConfiguration.cs" />
+    <Compile Include="IDbConnectionConfig.cs" />
+    <Compile Include="IXmlDataMapperSettings.cs" />
+    <Compile Include="QueryForPath.cs" />
+    <Compile Include="HelperClasses\RelayCommand.cs" />
+    <Compile Include="ShortcutCarouselConfig.cs" />
+    <Compile Include="CarouselFolderCollection.cs" />
+    <Compile Include="CarouselFolderItem.cs" />
+    <Compile Include="CarouselItemBase.cs" />
+    <Compile Include="CarouselSimpleItemBase.cs" />
+    <Compile Include="HelperClasses\NotifyPropertyChangedBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

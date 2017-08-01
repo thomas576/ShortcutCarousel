@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ShortcutCarousel.Model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ShortcutCarousel.Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="CarouselUser">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:NotifyPropertyChangedBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="DatabaseCollection" nillable="true" type="tns:ArrayOfCarouselDatabaseItem" />
+          <xs:element minOccurs="0" name="FolderCollection" nillable="true" type="tns:ArrayOfCarouselFolderItem" />
+          <xs:element minOccurs="0" name="LogCollection" nillable="true" type="tns:ArrayOfCarouselLogItem" />
+          <xs:element minOccurs="0" name="OSUser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ScriptCollection" nillable="true" type="tns:ArrayOfCarouselScriptItem" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CarouselUser" nillable="true" type="tns:CarouselUser" />
+  <xs:complexType name="NotifyPropertyChangedBase">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:element name="NotifyPropertyChangedBase" nillable="true" type="tns:NotifyPropertyChangedBase" />
+  <xs:complexType name="ArrayOfCarouselDatabaseItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CarouselDatabaseItem" nillable="true" type="tns:CarouselDatabaseItem" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCarouselDatabaseItem" nillable="true" type="tns:ArrayOfCarouselDatabaseItem" />
+  <xs:complexType name="CarouselDatabaseItem">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:CarouselItemBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="DBName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CarouselDatabaseItem" nillable="true" type="tns:CarouselDatabaseItem" />
+  <xs:complexType name="CarouselItemBase">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:NotifyPropertyChangedBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ColorHue" type="xs:double" />
+          <xs:element minOccurs="0" name="ColorLuminosity" type="xs:double" />
+          <xs:element minOccurs="0" name="ColorType" type="tns:ColorType" />
+          <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CarouselItemBase" nillable="true" type="tns:CarouselItemBase" />
+  <xs:simpleType name="ColorType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Grayscale" />
+      <xs:enumeration value="Hue" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ColorType" nillable="true" type="tns:ColorType" />
+  <xs:complexType name="ArrayOfCarouselFolderItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CarouselFolderItem" nillable="true" type="tns:CarouselFolderItem" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCarouselFolderItem" nillable="true" type="tns:ArrayOfCarouselFolderItem" />
+  <xs:complexType name="CarouselFolderItem">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:CarouselSimpleItemBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="FolderPath" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CarouselFolderItem" nillable="true" type="tns:CarouselFolderItem" />
+  <xs:complexType name="CarouselSimpleItemBase">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:CarouselItemBase">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CarouselSimpleItemBase" nillable="true" type="tns:CarouselSimpleItemBase" />
+  <xs:complexType name="ArrayOfCarouselLogItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CarouselLogItem" nillable="true" type="tns:CarouselLogItem" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCarouselLogItem" nillable="true" type="tns:ArrayOfCarouselLogItem" />
+  <xs:complexType name="CarouselLogItem">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:CarouselSimpleItemBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="LogPath" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="QueryForPath" nillable="true" type="tns:QueryForPath" />
+          <xs:element minOccurs="0" name="UseQueryForPath" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CarouselLogItem" nillable="true" type="tns:CarouselLogItem" />
+  <xs:complexType name="QueryForPath">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:NotifyPropertyChangedBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="SelectFromDual" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="QueryForPath" nillable="true" type="tns:QueryForPath" />
+  <xs:complexType name="ArrayOfCarouselScriptItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CarouselScriptItem" nillable="true" type="tns:CarouselScriptItem" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCarouselScriptItem" nillable="true" type="tns:ArrayOfCarouselScriptItem" />
+  <xs:complexType name="CarouselScriptItem">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:CarouselSimpleItemBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Script" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ScriptSourceLastLoad" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="ScriptUsualSource" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CarouselScriptItem" nillable="true" type="tns:CarouselScriptItem" />
+</xs:schema>

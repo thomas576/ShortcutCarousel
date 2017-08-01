@@ -1,0 +1,10 @@
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel.Service.Host\bin\Debug\ShortcutCarousel.Service.Host.exe.config
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel.Service.Host\bin\Debug\ShortcutCarousel.Service.Host.exe
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel.Service.Host\bin\Debug\ShortcutCarousel.Service.Host.pdb
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel.Service.Host\bin\Debug\ShortcutCarousel.Service.dll
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel.Service.Host\bin\Debug\ShortcutCarousel.Model.dll
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel.Service.Host\bin\Debug\ShortcutCarousel.Service.pdb
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel.Service.Host\bin\Debug\ShortcutCarousel.Model.pdb
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel.Service.Host\obj\Debug\ShortcutCarousel.Service.Host.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel.Service.Host\obj\Debug\ShortcutCarousel.Service.Host.exe
+C:\Users\Thomas\Desktop\Projects\ShortcutCarousel\ShortcutCarousel.Service.Host\obj\Debug\ShortcutCarousel.Service.Host.pdb

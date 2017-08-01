@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="46e55db3-0594-4abb-8467-9ca823f0f8a9" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/ShortcutCarouselService/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="d31ff1f9-47d8-4bb2-9cbe-33118005a4f8" SourceId="1" SourceUrl="http://localhost:8733/ShortcutCarouselService/?xsd=xsd2" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="092d3db2-c804-4f48-b198-90c8d6359793" SourceId="1" SourceUrl="http://localhost:8733/ShortcutCarouselService/?xsd=xsd3" />
+    <MetadataFile FileName="ShortcutCarouselService.wsdl" MetadataType="Wsdl" ID="8f6111b6-c5c2-488b-a0eb-0c79bd11484c" SourceId="1" SourceUrl="http://localhost:8733/ShortcutCarouselService/?wsdl" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="fef6b87e-561c-4942-929b-45a04c2730a1" SourceId="1" SourceUrl="http://localhost:8733/ShortcutCarouselService/?xsd=xsd0" />
+    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="47c5ec95-9019-49b1-8f95-ef58ab38c3dd" SourceId="1" SourceUrl="http://localhost:8733/ShortcutCarouselService/?xsd=xsd1" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="eb12957a-c0b6-4313-be6b-298cd1a78b3b" SourceId="1" SourceUrl="http://localhost:8733/ShortcutCarouselService/?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

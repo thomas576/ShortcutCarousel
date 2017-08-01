@@ -1,0 +1,142 @@
+﻿<Window x:Class="ShortcutCarousel.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShortcutCarousel.UI"
+		xmlns:system="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="Shortcut Carousel" Height="300" Width="300"
+		Topmost="{Binding Path=CarouselVM.StayOnTop}">
+	<Window.Resources>
+		<local:ColorToSolidColorBrushValueConverter x:Key="ColorToSolidColorBrush_Converter"/>
+	</Window.Resources>
+	<DockPanel>
+		<Menu DockPanel.Dock="Top">
+			<MenuItem Header="_File">
+				<MenuItem Header="Configure shortcuts" />
+				<Separator />
+				<MenuItem Header="Exit" Command="{Binding Path=ExitCommand}"/>
+			</MenuItem>
+			<MenuItem Header="_Users">
+				<MenuItem Header="Switch User" DataContext="{Binding Path=CarouselVM}" ItemsSource="{Binding Path=AvailableOSUsers}">
+					<MenuItem.ItemContainerStyle>
+						<Style TargetType="MenuItem">
+							<Setter Property="Header" Value="{Binding Path=OSUserName}"/>
+							<Setter Property="IsChecked" Value="{Binding Path=IsCurrentOSUser}"/>
+							<Setter Property="Command" Value="{Binding RelativeSource={RelativeSource FindAncestor,AncestorType={x:Type Window}},Path=DataContext.CarouselVM.SwitchUserCommand}"/>
+							<Setter Property="CommandParameter" Value="{Binding Path=OSUserName}"/>
+						</Style>
+					</MenuItem.ItemContainerStyle>
+				</MenuItem>
+			</MenuItem>
+		</Menu>
+		<Grid>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto" />
+				<RowDefinition Height="*" />
+			</Grid.RowDefinitions>
+			<Border Grid.Row="0" BorderBrush="Black" BorderThickness="0,0,0,0.2">
+				<Border.Background>
+					<!--<LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+						<GradientStop Color="White" Offset="0.0" />
+						<GradientStop Color="White" Offset="0.9" />
+						<GradientStop Color="LightBlue" Offset="1.0" />
+					</LinearGradientBrush>-->
+					<SolidColorBrush Color="#FFF8FADA">
+					</SolidColorBrush>
+				</Border.Background>
+				<StackPanel Orientation="Horizontal" Margin="5">
+					<CheckBox IsChecked="{Binding Path=CarouselVM.StayOnTop}">Keep on top of all windows</CheckBox>
+				</StackPanel>
+			</Border>
+			<ScrollViewer Grid.Row="1" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+				<StackPanel Orientation="Vertical" Margin="10">
+					<GroupBox Header="Databases" Padding="10" Height="auto">
+						<ItemsControl DataContext="{Binding Path=CarouselVM.CarouselUserVM.User}" ItemsSource="{Binding Path=DatabaseCollection}">
+							<ItemsControl.ItemTemplate>
+								<DataTemplate>
+									<GroupBox Header="{Binding Path=DisplayName}" Padding="2" Height="auto">
+										<StackPanel Height="Auto" Orientation="Horizontal" Width="250">
+											<Image Source="{StaticResource DbPng}"  Width="15" Height="15" Stretch="Fill" Margin="1"/>
+											<Button Margin="0,0,3,0" HorizontalAlignment="Left" Command="{Binding Path=ClickCopyDBNameCommand}" Background="{Binding Path=ColorBackground, Converter={StaticResource ColorToSolidColorBrush_Converter}}">
+												<TextBlock Text="{Binding Path=DBName}"/>
+											</Button>
+											<Button HorizontalAlignment="Left" Command="{Binding Path=ClickCopyUsernameCommand}" Background="{Binding Path=ColorBackground, Converter={StaticResource ColorToSolidColorBrush_Converter}}">
+												<TextBlock Text="{Binding Path=Username}"/>
+											</Button>
+											<Button Margin="3,0,0,0" HorizontalAlignment="Left" Command="{Binding Path=ClickCopyPasswordCommand}" Background="{Binding Path=ColorBackground, Converter={StaticResource ColorToSolidColorBrush_Converter}}">
+												<TextBlock Text="{Binding Path=Password}"/>
+											</Button>
+										</StackPanel>
+									</GroupBox>
+								</DataTemplate>
+							</ItemsControl.ItemTemplate>
+						</ItemsControl>
+					</GroupBox>
+					<GroupBox Header="Scripts" Padding="10" Height="auto">
+						<ItemsControl DataContext="{Binding Path=CarouselVM.CarouselUserVM.User}" ItemsSource="{Binding Path=ScriptCollection}">
+							<ItemsControl.ItemTemplate>
+								<DataTemplate>
+									<Button HorizontalAlignment="Left" Command="{Binding Path=ClickCommand}" Background="{Binding Path=ColorBackground, Converter={StaticResource ColorToSolidColorBrush_Converter}}">
+										<StackPanel Height="Auto" Orientation="Horizontal" Width="1000">
+											<Image Source="{StaticResource ScriptPng}"  Width="15" Height="15" Stretch="Fill" Margin="1"/>
+											<TextBlock Text="{Binding Path=DisplayName}" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Center" FontSize="12" />
+										</StackPanel>
+									</Button>
+								</DataTemplate>
+							</ItemsControl.ItemTemplate>
+						</ItemsControl>
+					</GroupBox>
+					<GroupBox Header="Folders" Padding="10" Height="auto">
+						<ItemsControl DataContext="{Binding Path=CarouselVM.CarouselUserVM.User}" ItemsSource="{Binding Path=FolderCollection}">
+							<ItemsControl.ItemTemplate>
+								<DataTemplate>
+									<Button HorizontalAlignment="Left" Command="{Binding Path=ClickCommand}" Background="{Binding Path=ColorBackground, Converter={StaticResource ColorToSolidColorBrush_Converter}}">
+										<StackPanel Height="Auto" Orientation="Horizontal" Width="1000">
+											<Image Source="{StaticResource Folder1Png}"  Width="15" Height="15" Stretch="Fill" Margin="1"/>
+											<TextBlock Text="{Binding Path=DisplayName}" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Center" FontSize="12" />
+										</StackPanel>
+									</Button>
+								</DataTemplate>
+							</ItemsControl.ItemTemplate>
+						</ItemsControl>
+					</GroupBox>
+					<GroupBox Header="Logs" Padding="10" Height="auto">
+						<ItemsControl DataContext="{Binding Path=CarouselVM.CarouselUserVM.User}" ItemsSource="{Binding Path=LogCollection}">
+							<ItemsControl.ItemTemplate>
+								<DataTemplate>
+									<Button HorizontalAlignment="Left" Command="{Binding Path=ClickCommand}" Background="{Binding Path=ColorBackground, Converter={StaticResource ColorToSolidColorBrush_Converter}}">
+										<StackPanel Height="Auto" Orientation="Horizontal" Width="1000">
+											<Image Source="{StaticResource LogPng}"  Width="15" Height="15" Stretch="Fill" Margin="1"/>
+											<TextBlock Text="{Binding Path=DisplayName}" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Center" FontSize="12" />
+										</StackPanel>
+									</Button>
+								</DataTemplate>
+							</ItemsControl.ItemTemplate>
+						</ItemsControl>
+					</GroupBox>
+					<!--<GroupBox Header="Folders" Padding="10">
+					<ItemsControl>
+					<ItemsControl.ItemTemplate>
+						<DataTemplate>
+							<Button HorizontalAlignment="Left">
+								<StackPanel Height="Auto" Orientation="Horizontal" Width="250">
+									<Image Source="{StaticResource Folder1Png}"  Width="15" Height="15" Stretch="Fill" Margin="1"/>
+									<TextBlock Text="{Binding}" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Center" FontSize="12" />
+								</StackPanel>
+							</Button>
+						</DataTemplate>
+					</ItemsControl.ItemTemplate>
+					<system:String>Item #1</system:String>
+					<system:String>Item #2</system:String>
+					<system:String>Item #3</system:String>
+					<system:String>Item #4</system:String>
+					<system:String>Item #5</system:String>
+				</ItemsControl>
+				</GroupBox>-->
+				</StackPanel>
+			</ScrollViewer>
+		</Grid>
+	</DockPanel>
+</Window>
