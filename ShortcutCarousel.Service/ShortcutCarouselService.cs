@@ -27,6 +27,7 @@ namespace ShortcutCarousel.Service
 		{
 			this.Initialize();
 			CarouselUser user = new CarouselUserDataMapper(this._ShortcutCarouselConfig).Load(osuser);
+			user.Initialize(this._ShortcutCarouselConfig, this._ShortcutCarouselConfig);
 			return user;
 		}
 

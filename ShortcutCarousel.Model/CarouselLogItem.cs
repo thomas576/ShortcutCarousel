@@ -76,6 +76,7 @@ namespace ShortcutCarousel.Model
 			this._QueryForPath = new QueryForPath(dbConnectionConfig);
 		}
 
+		#region Methods
 		public override void ClickAction()
 		{
 			if (this.UseQueryForPath)
@@ -96,5 +97,15 @@ namespace ShortcutCarousel.Model
 		{
 			return true;
 		}
+
+		public virtual void Initialize(IColorConfiguration colorConfig, IDbConnectionConfig dbConnectionConfig)
+		{
+			this.Initialize(colorConfig);
+			if (this.QueryForPath != null)
+			{
+				this.QueryForPath.Initialize(dbConnectionConfig);
+			}
+		}
+		#endregion
 	}
 }

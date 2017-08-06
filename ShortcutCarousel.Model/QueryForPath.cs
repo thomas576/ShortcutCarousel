@@ -41,9 +41,10 @@ namespace ShortcutCarousel.Model
 
 		public QueryForPath(IDbConnectionConfig dbConnectionConfig) : this()
 		{
-			this._DbConnectionConfig = dbConnectionConfig;
+			this.Initialize(dbConnectionConfig);
 		}
 
+		#region Methods
 		public string ConnectAndRunQuery()
 		{
 			string queryResult = null;
@@ -110,5 +111,11 @@ namespace ShortcutCarousel.Model
 			}
 			return stringColumn;
 		}
+
+		public virtual void Initialize(IDbConnectionConfig dbConnectionConfig)
+		{
+			this._DbConnectionConfig = dbConnectionConfig;
+		}
+		#endregion
 	}
 }

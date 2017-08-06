@@ -94,7 +94,25 @@ namespace ShortcutCarousel.Model
 		#endregion
 
 		#region Methods
-
+		public virtual void Initialize(IColorConfiguration colorConfig, IDbConnectionConfig dbConnectionConfig)
+		{
+			foreach (CarouselDatabaseItem item in this.DatabaseCollection)
+			{
+				item.Initialize(colorConfig);
+			}
+			foreach (CarouselScriptItem item in this.ScriptCollection)
+			{
+				item.Initialize(colorConfig);
+			}
+			foreach (CarouselFolderItem item in this.FolderCollection)
+			{
+				item.Initialize(colorConfig);
+			}
+			foreach (CarouselLogItem item in this.LogCollection)
+			{
+				item.Initialize(colorConfig, dbConnectionConfig);
+			}
+		}
 		#endregion
 	}
 }

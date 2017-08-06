@@ -37,7 +37,8 @@ namespace ShortcutCarousel.Model
 				{
 					XmlSerializer serializer = XmlSerializer.FromTypes(new[] { typeof(CarouselUser) })[0];
 					//var serializer = new XmlSerializer(typeof(CarouselUser));
-					return serializer.Deserialize(stream) as CarouselUser;
+					CarouselUser user = serializer.Deserialize(stream) as CarouselUser;
+					return user;
 				}
 			}
 			catch (Exception ex)

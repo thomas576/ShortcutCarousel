@@ -110,12 +110,19 @@ namespace ShortcutCarousel.Model
 
 		}
 
-		public CarouselItemBase(IColorConfiguration colorConfig)
+		public CarouselItemBase(IColorConfiguration colorConfig) : this()
+		{
+			this.Initialize(colorConfig);
+		}
+
+		#region Methods
+		public virtual void Initialize(IColorConfiguration colorConfig)
 		{
 			this._ColorConfig = colorConfig;
 			this._ColorType = this._ColorConfig.DefaultColorType;
 			this._ColorLuminosity = this._ColorConfig.DefaultLuminosity;
 		}
+		#endregion
 	}
 
 	public enum ColorType : int
