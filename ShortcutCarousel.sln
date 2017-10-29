@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortcutCarousel.Service", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortcutCarousel.Service.Host", "ShortcutCarousel.Service.Host\ShortcutCarousel.Service.Host.csproj", "{B7B6A7F5-B5BA-42FD-AFD1-22D2A1375497}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortcutCarousel.UnitTest", "ShortcutCarousel.UnitTest\ShortcutCarousel.UnitTest.csproj", "{9B3C51C5-258B-45D6-AD26-A04C234B8FCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B7B6A7F5-B5BA-42FD-AFD1-22D2A1375497}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7B6A7F5-B5BA-42FD-AFD1-22D2A1375497}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7B6A7F5-B5BA-42FD-AFD1-22D2A1375497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B3C51C5-258B-45D6-AD26-A04C234B8FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B3C51C5-258B-45D6-AD26-A04C234B8FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B3C51C5-258B-45D6-AD26-A04C234B8FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B3C51C5-258B-45D6-AD26-A04C234B8FCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using Microsoft.Practices.Unity;
 
 namespace ShortcutCarousel.UI
 {
@@ -17,6 +18,12 @@ namespace ShortcutCarousel.UI
 		{
 			base.OnStartup(e);
 
+			UnityContainerHelper.Container = new UnityContainer();
+			UnityContainerHelper.Container.RegisterType(
+				typeof(ShortcutCarouselService.IShortcutCarouselService), 
+				typeof(ShortcutCarouselService.ShortcutCarouselServiceClient), 
+				new InjectionConstructor());
+
 			MainWindow mainWindow = new MainWindow();
 			mainWindow.DataContext = new MainWindowVM(new ShortcutCarouselUIConfig());
 			mainWindow.Show();
@@ -24,7 +31,6 @@ namespace ShortcutCarousel.UI
 
 		protected override void OnExit(ExitEventArgs e)
 		{
-			//ShortcutCarouselServiceHelper.ServiceClient.Close();
 			base.OnExit(e);
 		}
 	}

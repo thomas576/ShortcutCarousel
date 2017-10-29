@@ -38,6 +38,9 @@
     <Reference Include="log4net">
       <HintPath>..\ThirdpartyLibraries\log4net.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Practices.Unity">
+      <HintPath>..\ThirdpartyLibraries\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
@@ -61,6 +64,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="HelperClasses\UnityContainerHelper.cs" />
     <Compile Include="IConfigDefaultOSUser.cs" />
     <Compile Include="Service References\ShortcutCarouselService\Reference.cs">
       <AutoGen>True</AutoGen>

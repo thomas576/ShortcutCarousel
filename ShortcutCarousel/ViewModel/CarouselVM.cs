@@ -7,6 +7,7 @@ using ShortcutCarousel.Model;
 using System.Collections.ObjectModel;
 using ShortcutCarousel.UI.ShortcutCarouselService;
 using System.Windows.Input;
+using Microsoft.Practices.Unity;
 
 namespace ShortcutCarousel.UI
 {
@@ -84,7 +85,7 @@ namespace ShortcutCarousel.UI
 			this.CarouselUserVM = new CarouselUserVM();
 
 			IList<string> availableOSUsersList = new List<string>();
-			new ShortcutCarouselServiceClient().Using(service => {
+			UnityContainerHelper.Container.Resolve<IShortcutCarouselService>().Using(service => {
 				foreach (string s in service.GetOSUserList())
 				{
 					availableOSUsersList.Add(s);
@@ -114,7 +115,7 @@ namespace ShortcutCarousel.UI
 				}
 				if (!found)
 				{
-					log.InfoFormat(@"CarouselVM(): you have not correctly configured your default osuser and it has not been found.");
+					log.Info(@"CarouselVM(): you have not correctly configured your default osuser and it has not been found.");
 					this.SwitchToOSUser(this.AvailableOSUsers[0].OSUserName);
 				}
 			}
@@ -126,7 +127,7 @@ namespace ShortcutCarousel.UI
 		#region Methods
 		public void SwitchToOSUser(string osuser)
 		{
-			new ShortcutCarouselServiceClient().Using(service => {
+			UnityContainerHelper.Container.Resolve<IShortcutCarouselService>().Using(service => {
 				this.CarouselUserVM.User = service.GetUser(osuser);
 			});
 

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
 using ShortcutCarousel.Model;
+using ShortcutCarousel.UI.ShortcutCarouselService;
 
 namespace ShortcutCarousel.UI
 {

@@ -9,25 +9,33 @@ namespace ShortcutCarousel.UI
 {
 	public static class WcfExtensions
 	{
-		public static void Using<T>(this T client, Action<T> work) where T : ICommunicationObject
+		public static void Using<T>(this T client, Action<T> work) where T : ShortcutCarouselService.IShortcutCarouselService
 		{
-			try
+			ICommunicationObject service = client as ICommunicationObject;
+			if (service != null)
+			{
+				try
+				{
+					work(client);
+					service.Close();
+				}
+				catch (CommunicationException)
+				{
+					service.Abort();
+				}
+				catch (TimeoutException)
+				{
+					service.Abort();
+				}
+				catch (Exception)
+				{
+					service.Abort();
+					throw;
+				}
+			}
+			else
 			{
 				work(client);
-				client.Close();
-			}
-			catch (CommunicationException)
-			{
-				client.Abort();
-			}
-			catch (TimeoutException)
-			{
-				client.Abort();
-			}
-			catch (Exception)
-			{
-				client.Abort();
-				throw;
 			}
 		}
 	}
