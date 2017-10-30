@@ -29,6 +29,7 @@
 						</Style>
 					</MenuItem.ItemContainerStyle>
 				</MenuItem>
+				<MenuItem Header="Edit Current User" DataContext="{Binding Path=CarouselVM}" Command="{Binding Path=EditCurrentUserCommand}"/>
 			</MenuItem>
 		</Menu>
 		<Grid>

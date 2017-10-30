@@ -76,6 +76,19 @@ namespace ShortcutCarousel.UI
 				return _SwitchUserCommand;
 			}
 		}
+
+		private RelayCommand _EditCurrentUserCommand;
+		public ICommand EditCurrentUserCommand
+		{
+			get
+			{
+				if (_EditCurrentUserCommand == null)
+				{
+					_EditCurrentUserCommand = new RelayCommand(param => this.ExecuteEditCurrentUser(param), param => this.CanExecuteEditCurrentUser(param));
+				}
+				return _EditCurrentUserCommand;
+			}
+		}
 		#endregion
 
 		#region Contructors
@@ -152,6 +165,22 @@ namespace ShortcutCarousel.UI
 		private bool CanExecuteSwitchUser(object param)
 		{
 			return true;
+		}
+
+		public void EditCurrentUser()
+		{
+			EditCurrentUserWindow editCurrentUserWindow = new EditCurrentUserWindow(this.CarouselUserVM);
+			editCurrentUserWindow.Show();
+		}
+
+		private void ExecuteEditCurrentUser(object param)
+		{
+			this.EditCurrentUser();
+		}
+
+		private bool CanExecuteEditCurrentUser(object param)
+		{
+			return (this.CarouselUserVM.User != null);
 		}
 		#endregion
 	}

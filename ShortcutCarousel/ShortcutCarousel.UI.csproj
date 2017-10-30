@@ -64,6 +64,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="EditCurrentUserWindow.xaml.cs">
+      <DependentUpon>EditCurrentUserWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="HelperClasses\UnityContainerHelper.cs" />
     <Compile Include="IConfigDefaultOSUser.cs" />
     <Compile Include="Service References\ShortcutCarouselService\Reference.cs">
@@ -92,6 +95,10 @@
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
     <Compile Include="ViewModel\CarouselVM.cs" />
+    <Page Include="EditCurrentUserWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -100,6 +107,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ViewModel\EditCurrentUserVM.cs" />
     <Compile Include="ViewModel\MainWindowVM.cs" />
     <Compile Include="ViewModel\OSUserVM.cs" />
     <Compile Include="ViewModel\ViewModelBase.cs" />
