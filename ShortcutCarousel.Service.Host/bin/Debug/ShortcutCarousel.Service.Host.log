@@ -1,24 +1,144 @@
-2017-10-30 20:38:25,939 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
-2017-10-30 20:38:25,976 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
-2017-10-30 20:38:25,976 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
-2017-10-30 20:38:25,976 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
-2017-10-30 20:38:25,977 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
-2017-10-30 20:38:25,977 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
-2017-10-30 20:56:02,943 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
-2017-10-30 20:56:02,958 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
-2017-10-30 20:56:02,958 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
-2017-10-30 20:56:02,958 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
-2017-10-30 20:56:02,958 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
-2017-10-30 20:56:02,958 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
-2017-10-30 21:03:51,039 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
-2017-10-30 21:03:51,054 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
-2017-10-30 21:03:51,054 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
-2017-10-30 21:03:51,054 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
-2017-10-30 21:03:51,054 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
-2017-10-30 21:03:51,054 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
-2017-10-30 22:29:43,089 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
-2017-10-30 22:29:43,104 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
-2017-10-30 22:29:43,104 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
-2017-10-30 22:29:43,104 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
-2017-10-30 22:29:43,104 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
-2017-10-30 22:29:43,104 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 20:37:49,291 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 20:37:49,354 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 20:37:49,354 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 20:37:49,354 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 20:37:49,355 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 20:37:49,355 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 20:38:38,051 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 20:38:38,051 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 20:38:38,066 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 20:38:38,066 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 20:38:38,066 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 20:38:38,066 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 20:39:58,040 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 20:39:58,040 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 20:39:58,040 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 20:39:58,040 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 20:39:58,040 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 20:39:58,040 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 20:41:20,601 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 20:41:20,613 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 20:41:20,613 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 20:41:20,613 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 20:41:20,613 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 20:41:20,613 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 20:42:56,542 [13] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 20:42:56,558 [13] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 20:42:56,558 [13] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 20:42:56,558 [13] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 20:42:56,558 [13] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 20:42:56,558 [13] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 20:47:37,858 [10] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 20:47:37,858 [10] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 20:47:37,858 [10] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 20:47:37,858 [10] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 20:47:37,858 [10] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 20:47:37,858 [10] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 20:54:39,068 [13] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 20:54:39,068 [13] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 20:54:39,068 [13] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 20:54:39,068 [13] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 20:54:39,068 [13] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 20:54:39,068 [13] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:00:13,205 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:00:13,205 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:00:13,205 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:00:13,205 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:00:13,205 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:00:13,205 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:00:52,013 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:00:52,025 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:00:52,025 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:00:52,025 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:00:52,025 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:00:52,025 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:07:18,457 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:07:18,469 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:07:18,469 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:07:18,469 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:07:18,469 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:07:18,469 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:07:57,736 [9] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:07:57,752 [9] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:07:57,752 [9] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:07:57,752 [9] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:07:57,752 [9] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:07:57,752 [9] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:09:25,104 [10] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:09:25,116 [10] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:09:25,116 [10] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:09:25,116 [10] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:09:25,116 [10] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:09:25,116 [10] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:10:37,640 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:10:37,671 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:10:37,671 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:10:37,671 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:10:37,671 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:10:37,671 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:12:16,130 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:12:16,142 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:12:16,142 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:12:16,143 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:12:16,143 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:12:16,143 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:17:38,941 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:17:38,957 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:17:38,957 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:17:38,957 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:17:38,957 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:17:38,957 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:35:42,587 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:35:42,599 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:35:42,599 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:35:42,599 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:35:42,599 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:35:42,599 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:37:07,921 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:37:07,932 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:37:07,932 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:37:07,932 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:37:07,932 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:37:07,932 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:38:39,657 [10] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:38:39,669 [10] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:38:39,669 [10] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:38:39,669 [10] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:38:39,670 [10] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:38:39,670 [10] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:44:02,587 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:44:02,598 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:44:02,598 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:44:02,598 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:44:02,598 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:44:02,598 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:44:48,476 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:44:48,492 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:44:48,492 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:44:48,492 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:44:48,492 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:44:48,492 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:47:43,663 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:47:43,675 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:47:43,675 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:47:43,675 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:47:43,675 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:47:43,675 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:54:52,424 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:54:52,436 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 21:54:52,436 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:54:52,436 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 21:54:52,436 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 21:54:52,436 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 22:35:28,127 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 22:35:28,143 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 22:35:28,143 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 22:35:28,143 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 22:35:28,143 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 22:35:28,143 [12] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 22:43:24,856 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 22:43:24,872 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-10-31 22:43:24,872 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 22:43:24,872 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-10-31 22:43:24,872 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-10-31 22:43:24,872 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.

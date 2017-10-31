@@ -25,7 +25,7 @@ namespace ShortcutCarousel.UI
 				new InjectionConstructor());
 
 			MainWindow mainWindow = new MainWindow();
-			mainWindow.DataContext = new MainWindowVM(new ShortcutCarouselUIConfig());
+			mainWindow.DataContext = new MainWindowVM(ShortcutCarouselUIConfig.ReadConfig());
 			mainWindow.Show();
 		}
 

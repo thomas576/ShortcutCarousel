@@ -102,12 +102,24 @@
     <xs:complexContent mixed="false">
       <xs:extension base="tns:NotifyPropertyChangedBase">
         <xs:sequence>
-          <xs:element minOccurs="0" name="SelectFromDual" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="_DbConnectionConfig" nillable="true" type="xs:anyType" />
+          <xs:element minOccurs="0" name="_SelectFromDual" nillable="true" type="xs:string" />
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="QueryForPath" nillable="true" type="tns:QueryForPath" />
+  <xs:complexType name="ShortcutCarouselConfig">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ConnectionStringPrimary" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ConnectionStringSecondary" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ConnectionStringTertiary" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DefaultColorType" type="tns:ColorType" />
+      <xs:element minOccurs="0" name="DefaultLuminosity" type="xs:double" />
+      <xs:element minOccurs="0" name="XMLDirectoryFullPath" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ShortcutCarouselConfig" nillable="true" type="tns:ShortcutCarouselConfig" />
   <xs:complexType name="ArrayOfCarouselScriptItem">
     <xs:sequence>
       <xs:element minOccurs="0" maxOccurs="unbounded" name="CarouselScriptItem" nillable="true" type="tns:CarouselScriptItem" />

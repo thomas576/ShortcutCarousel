@@ -5,17 +5,22 @@ using System.Text;
 using System.Threading.Tasks;
 using Oracle.ManagedDataAccess.Client;
 using System.Data;
+using System.Runtime.Serialization;
 
 namespace ShortcutCarousel.Model
 {
+	[DataContract]
+	[KnownType(typeof(ShortcutCarouselConfig))]
 	public class QueryForPath : NotifyPropertyChangedBase
 	{
 		#region Private fields
 		private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+		[DataMember]
 		private IDbConnectionConfig _DbConnectionConfig;
 		#endregion
 
 		#region Properties
+		[DataMember]
 		private string _SelectFromDual;
 		public string SelectFromDual
 		{

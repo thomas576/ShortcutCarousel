@@ -11,20 +11,26 @@ namespace ShortcutCarousel.UI
 	{
 		private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
-		public string DefaultOSUSer
+		public static ShortcutCarouselUIConfig ReadConfig()
 		{
-			get
+			ShortcutCarouselUIConfig instance = new ShortcutCarouselUIConfig();
+			try
 			{
-				try
-				{
-					string val = ConfigurationManager.AppSettings["DefaultOSUSer"];
-					return val.ToString();
-				}
-				catch (Exception)
-				{
-					return @"usera";
-				}
+				string val = ConfigurationManager.AppSettings["DefaultOSUSer"];
+				instance.DefaultOSUSer = val.ToString();
 			}
+			catch (Exception)
+			{
+				instance.DefaultOSUSer = @"usera";
+			}
+			return instance;
 		}
+
+		private ShortcutCarouselUIConfig()
+		{
+
+		}
+
+		public string DefaultOSUSer { get; set; }
 	}
 }

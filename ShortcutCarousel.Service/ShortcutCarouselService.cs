@@ -19,10 +19,10 @@ namespace ShortcutCarousel.Service
 		{
 			if (!this._IsInitialized)
 			{
-				this._ShortcutCarouselConfig = new ShortcutCarouselConfig();
+				this._ShortcutCarouselConfig = ShortcutCarouselConfig.ReadConfig();
 			}
 		}
-
+		
 		public CarouselUser GetUser(string osuser)
 		{
 			this.Initialize();
