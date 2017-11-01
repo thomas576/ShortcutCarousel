@@ -28,3 +28,15 @@
 2017-11-01 21:33:06,557 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
 2017-11-01 21:33:06,557 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
 2017-11-01 21:33:06,557 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-11-01 22:34:00,385 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-11-01 22:34:00,419 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-11-01 22:34:00,419 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-11-01 22:34:00,419 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-11-01 22:34:00,419 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-11-01 22:34:00,419 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-11-01 22:35:36,936 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_tdier.xml'.
+2017-11-01 22:35:36,949 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'tdier' in the xml file with Name = 'carousel_user_tdier.xml'.
+2017-11-01 22:35:36,949 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_usera.xml'.
+2017-11-01 22:35:36,949 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'usera' in the xml file with Name = 'carousel_user_usera.xml'.
+2017-11-01 22:35:36,949 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found the xml file with Name = 'carousel_user_xqueva.xml'.
+2017-11-01 22:35:36,949 [11] DEBUG [(null)] DiscoverXmlUsersAvailable() has found osuser = 'xqueva' in the xml file with Name = 'carousel_user_xqueva.xml'.

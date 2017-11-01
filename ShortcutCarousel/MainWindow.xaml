@@ -57,20 +57,20 @@
 						<ItemsControl DataContext="{Binding Path=CarouselVM.CarouselUserVM.User}" ItemsSource="{Binding Path=DatabaseCollection}">
 							<ItemsControl.ItemTemplate>
 								<DataTemplate>
-									<GroupBox Header="{Binding Path=DisplayName}" Padding="2" Height="auto">
-										<StackPanel Height="Auto" Orientation="Horizontal" Width="250">
-											<Image Source="{StaticResource DbPng}"  Width="15" Height="15" Stretch="Fill" Margin="1"/>
-											<Button Margin="0,0,3,0" HorizontalAlignment="Left" Command="{Binding Path=ClickCopyDBNameCommand}" Background="{Binding Path=ColorBackground, Converter={StaticResource ColorToSolidColorBrush_Converter}}">
-												<TextBlock Text="{Binding Path=DBName}"/>
-											</Button>
-											<Button HorizontalAlignment="Left" Command="{Binding Path=ClickCopyUsernameCommand}" Background="{Binding Path=ColorBackground, Converter={StaticResource ColorToSolidColorBrush_Converter}}">
-												<TextBlock Text="{Binding Path=Username}"/>
-											</Button>
-											<Button Margin="3,0,0,0" HorizontalAlignment="Left" Command="{Binding Path=ClickCopyPasswordCommand}" Background="{Binding Path=ColorBackground, Converter={StaticResource ColorToSolidColorBrush_Converter}}">
-												<TextBlock Text="{Binding Path=Password}"/>
-											</Button>
-										</StackPanel>
-									</GroupBox>
+									<!--<GroupBox Header="{Binding Path=DisplayName}" Padding="2" Height="auto">-->
+									<StackPanel Height="Auto" Orientation="Horizontal" Width="250">
+										<Image Source="{StaticResource DbPng}"  Width="15" Height="15" Stretch="Fill" Margin="1"/>
+										<Button Margin="0,0,3,0" HorizontalAlignment="Left" Command="{Binding Path=ClickCopyDBNameCommand}" Background="{Binding Path=ColorBackground, Converter={StaticResource ColorToSolidColorBrush_Converter}}">
+											<TextBlock Text="{Binding Path=DBName}"/>
+										</Button>
+										<Button HorizontalAlignment="Left" Command="{Binding Path=ClickCopyUsernameCommand}" Background="{Binding Path=ColorBackground, Converter={StaticResource ColorToSolidColorBrush_Converter}}">
+											<TextBlock Text="{Binding Path=Username}"/>
+										</Button>
+										<Button Margin="3,0,0,0" HorizontalAlignment="Left" Command="{Binding Path=ClickCopyPasswordCommand}" Background="{Binding Path=ColorBackground, Converter={StaticResource ColorToSolidColorBrush_Converter}}">
+											<TextBlock Text="{Binding Path=Password}"/>
+										</Button>
+									</StackPanel>
+									<!--</GroupBox>-->
 								</DataTemplate>
 							</ItemsControl.ItemTemplate>
 						</ItemsControl>

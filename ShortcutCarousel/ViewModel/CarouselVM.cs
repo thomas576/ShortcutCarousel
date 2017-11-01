@@ -180,7 +180,7 @@ namespace ShortcutCarousel.UI
 
 		private bool CanExecuteEditCurrentUser(object param)
 		{
-			return (this.CarouselUserVM.User != null);
+			return (this.CarouselUserVM.User != null && this.CarouselUserVM.User.OSUser == this._ConfigDefaultOSUser.DefaultOSUSer);
 		}
 		#endregion
 	}
